@@ -7,3 +7,4 @@ config.codekit
 .sass-cache/*
 
 static/
+_site
