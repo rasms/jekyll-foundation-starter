@@ -1,0 +1,55 @@
+title:              Jekyll Foundation Starter
+
+# Versioning
+current_version: 1.5.0
+foundation_version: 6.0.0
+
+author:
+  name:             username
+  email:            user@domain.com
+  github:           username
+  twitter:          username
+
+# Dependencies
+markdown:           kramdown
+#Syntax Highlighter
+#highlighter:        pygments
+
+# Permalinks
+permalink:          pretty
+
+# Server
+source:             ./source
+destination:        ./static
+
+port:               5000
+baseurl:            ""
+url:                http://yoururl.com
+
+# exclude this stuff when building the static site
+exclude:            [
+                      '.gitignore',
+                      'README.md',
+                      'Gemfile',
+                      'Gemfile.lock',
+                    ]
+
+## CUSTOM VARS
+
+#ga_id:             ##-########-###
+site_name:          Jekyll Foundation Starter
+site_description :  The awesomeness of Foundation 6... powered by Jekyll
+site_copyright:     Copyright (c) 2016 @rasms
+site_url:           http://yoururl.com
+site_email:         site@domain.com
+
+
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          ./assets/stylesheets
+  style:            :compressed
+
+
+gems: [jekyll-sitemap, jekyll-feed, jekyll-gist]
