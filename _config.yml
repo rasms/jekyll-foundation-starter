@@ -1,8 +1,7 @@
 title:              Jekyll Foundation Starter
 
 # Versioning
-current_version: 1.5.0
-foundation_version: 6.0.0
+foundation_version: 6.2.1
 
 author:
   name:             username
@@ -22,7 +21,7 @@ permalink:          pretty
 source:             ./source
 destination:        ./static
 
-port:               5000
+port:               4000
 baseurl:            ""
 url:                http://yoururl.com
 
