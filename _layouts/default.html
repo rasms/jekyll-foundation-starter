@@ -1,5 +1,18 @@
 {% include header.html %}
 
-  {{ content }}
+<div class="off-canvas-wrapper">
+  <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
+  {% include topbar.html %}
+
+  <!-- original content goes in this container -->
+  <div class="off-canvas-content" data-off-canvas-content>
+    <div class="row column">
+      {{ content }}
+    </div>
+  </div>
+
+  <!-- close wrapper, no more content after this -->
+  </div>
+</div>
 {% include footer.html %}
