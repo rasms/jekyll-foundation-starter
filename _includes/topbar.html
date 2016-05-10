@@ -17,7 +17,7 @@
         {% assign current = page.url | downcase | split: '/' %}
         {% for item in site.data.nav-main %}
 
-              <li {% if current[1] == item.url %}class='active'{% endif %}><a href="/{{ item.url }}">{{ item.link }}</a></li>
+              <li {% if current[1] == item.url %}class='active'{% endif %}><a href="{{ site.baseurl }}/{{ item.url }}">{{ item.link }}</a></li>
         {% endfor %}
       </ul>
     </div>
@@ -32,7 +32,7 @@
         <ul class="dropdown menu" data-dropdown-menu>
           <li class="menu-text">Foundation</li>
           {% for item in site.data.nav-main %}
-                <li {% if current[1] == item.url %}class='active'{% endif %}><a href="/{{ item.url }}">{{ item.link }}</a></li>
+                <li {% if current[1] == item.url %}class='active'{% endif %}><a href="{{ site.baseurl }}/{{ item.url }}">{{ item.link }}</a></li>
               {% endfor %}
 
           <li class="has-submenu">

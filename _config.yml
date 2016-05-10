@@ -19,8 +19,8 @@ permalink:          pretty
 
 # Server
 port:               4000
-baseurl:            ""
-url:                http://yoururl.com
+baseurl:            /jekyll-foundation-starter
+url:                http://rasms.github.io
 
 # exclude this stuff when building the static site
 exclude:            [
